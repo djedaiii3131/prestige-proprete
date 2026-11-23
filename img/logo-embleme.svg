@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 130" width="480" height="520">
+  <defs>
+    <linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9c7631"/><stop offset=".45" stop-color="#f3dfa2"/><stop offset="1" stop-color="#b88d43"/>
+    </linearGradient>
+    <mask id="sousToit" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="130">
+      <rect width="120" height="130" fill="#fff"/>
+      <path d="M8 118 L72 62 L114 104" fill="none" stroke="#000" stroke-width="18" stroke-linejoin="miter"/>
+      <path d="M8 118 L72 62 L114 104 L120 130 L0 130 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path mask="url(#sousToit)" fill="url(#or)" fill-rule="evenodd" d="M37 6 H72 A30 30 0 0 1 72 66 H58 V120 H44 V14 L37 10 Z M58 16 V56 H70 A20 20 0 0 0 70 16 Z"/>
+  <path d="M8 118 L72 62 L114 104" fill="none" stroke="url(#or)" stroke-width="6" stroke-linejoin="miter"/>
+  <g fill="url(#or)"><rect x="68" y="82" width="7" height="7"/><rect x="77" y="82" width="7" height="7"/><rect x="68" y="91" width="7" height="7"/><rect x="77" y="91" width="7" height="7"/></g>
+</svg>
